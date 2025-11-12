@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    // List of URLs to redirect to
+    const urls = [
+      "https://example.com",
+      "https://openai.com",
+      "https://github.com",
+      "https://wikipedia.org"
+    ];
+
+    // Pick a random one
+    const randomUrl = urls[Math.floor(Math.random() * urls.length)];
+
+    // Redirect after a short delay
+    window.location.replace(randomUrl);
+  </script>
+</head>
+<body>
+  <p>Redirecting you to a random page...</p>
+</body>
+</html>
